@@ -16,272 +16,183 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  BewellLogo,
+  ApppiLogo,
+  SGCULogo,
+  ESCLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Wiraphat Yodsri",
+  initials: "WY",
+  location: "Bangkok, Thailand",
+  locationLink: "https://www.google.com/maps/place/Bangkok",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Software Engineer dedicated to building high-quality software.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "As a dedicated Software Engineer, I excel in developing robust backend systems and leading development teams through the implementation of efficient, scalable solutions. My experience spans working with Golang, gRPC, and microservices architecture, particularly in high-performance environments. I have contributed to various projects, including authorization systems, customer service platforms, and university-level web development. With a strong foundation in clean architecture, DDD, and design patterns, I aim to create reliable and maintainable software systems.",
+  avatarUrl: "https://i.ibb.co/5BYygkp/banky-google-scl2024.jpg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "y.wiraphat@gmail.com",
+    tel: "+66614615868",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/wiraphatys",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ywiraphat",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Chulalongkorn University",
+      degree: "Bachelor's Degree in Computer Engineering",
+      start: "2023",
+      end: "Present",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+      company: "Apppi",
+      link: "https://apppi.co",
+      badges: ["Intern"],
+      title: "Software Engineer Intern",
+      logo: ApppiLogo,
+      start: "August 2024",
+      end: "Present",
+      description: [
+        "Designed and developed middleware for user authorization, integrating Microsoft Azure AD token verification and implementing Role - Based Access Control(RBAC) to manage permissions within the Content Management System(CMS).",
+        "Optimized and enhanced UI code to improve rendering efficiency, focusing on performance by minimizing redundant API calls and preventing unnecessary data reloading.",
+      ],
+      technologies: ["Next.js", "AntD", "Go", "Gin", "PostgreSQL", "Docker", "Microsoft Azure", "Auth0"]
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+      company: "Bewell",
+      link: "https://www.bewellstyle.com/",
+      badges: ["Intern"],
+      title: "Software Engineer Intern",
+      logo: BewellLogo,
+      start: "May 2024",
+      end: "July 2024",
+      description: [
+        "Developed the customer service system for handling post-sales product repairs for Bewell, utilizing Golang as the backend server.",
+        "Designed the database for the customer service system using MS SQL, implemented indexing to enhance query performance, and defined relationships according to database design principles.",
+        "Designed the customer service system with a strong focus on architecture, using design patterns like Singleton and Factory, implementing clean architecture, and adhering to SOLID principles and DDD.",
+        "Developed the delivery sales system for Bewell, utilizing Golang as the backend to ensure efficient and reliable operations.",
+      ],
+      technologies: ["Go","Fiber", "MS SQL", "Docker", "Gitlab CI", "NginX"]
     },
+  ],
+  extraCurricular: [
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Student Gorvernment of Chulalongkorn University",
+      link: "https://www.chula.ac.th/academics/academic-units/sgcu",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+      title: "Senior Software Engineer",
+      logo: SGCULogo,
+      start: "June 2024",
+      end: "Present",
+      description: [
+        "Led the backend team for the official website project of the Student Union at Chulalongkorn University (SUCU). My primary responsibilities included task allocation to engineers, leading the Scrum process, and providing supports to team members.",
+        "Architected the system using Golang as the backend server. The architecture was implemented following the principles of clean architecture, with careful consideration of domain-driven design (DDD)",
+      ],
+      technologies: ["Go", "Fiber", "Gin", "PostgreSQL", "Kubernetes", "Microservices", "gRPC", "GCP", "AWS"]
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Engineering Student Committee, Chulalongkorn University",
+      link: "https://esc.eng.chula.ac.th",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      title: "Software Engineer",
+      logo: ESCLogo,
+      start: "June 2024",
+      end: "Present",
+      description: [
+        "Implemented the backend system using Golang as the server and employed gRPC as the API architecture to facilitate communication between servers, effectively reducing the latency of API calls to support over 1,000 users.",
+        "Authored proto files according to the API requirements to integrate and establish the gRPC server, allowing clients to access and interact with the services efficiently.",
+        "Designed the code architecture by implementing hexagonal architecture principles, structured the codebase in a domain-based manner, and utilized Golang as the backend server to ensure a modular and maintainable system."
+      ],
+      technologies: ["Go", "Fiber", "Gin", "PostgreSQL", "Docker", "gRPC", "Hexagonal", "OIDC"]
     },
   ],
   skills: [
+    "Golang",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "Java",
+    "C/C++",
+    "PostgreSQL",
+    "MS SQL",
+    "MySQL",
+    "MongoDB",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Fiber",
+    "Gin",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Express.js",
+    "Nest.js",
+    "React/Next.js",
+    "Tailwind",
+    "AntD",
+    "gRPC",
+    "REST",
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "Sightify CJ",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Full Stack Software Engineer",
+        "React.js",
+        "AntD",
+        "Go",
+        "Gin",
+        "Docker",
+        "Microsoft Azure",
+        "Auth0"
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "The CMS product integrates with Tableau to analyze company data, enabling dashboard creation, with phase 2 focusing on managing access rights for employees and customers.",
       logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
     },
     {
-      title: "Evercast",
+      title: "After Sale Service",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Backend Software Engineer",
+        "Go",
+        "Fiber",
+        "MS SQL",
+        "Docker",
+        "Gitlab CI"
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "The customer service system focuses on post-sales product support, including receiving problem reports, fixing issues, and returning the products.",
       logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
     },
     {
-      title: "Consultly",
+      title: "RPKM 2024",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Backend Software Engineer",
+        "Go",
+        "Redis",
+        "Digital Ocean",
+        "Microservices",
+        "gRPC",
       ],
-      description: "A platform to build and grow your online business",
+      description: "The Rub Puen Kao Mai 2024 web application is used for activities over 2 days during the freshman orientation for first-year students.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com/wiraphatys/rpkm67-backend",
+        href: "https://github.com/wiraphatys/rpkm67-backend",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
