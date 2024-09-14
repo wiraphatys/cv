@@ -168,7 +168,7 @@ export default function Page() {
           </div>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Extra Curricular</h2>
+          <h2 className="text-xl font-bold">Extracurricular</h2>
           <div className="space-y-4">
             {RESUME_DATA.extraCurricular.map((work) => {
               return (
