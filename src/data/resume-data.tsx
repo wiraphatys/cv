@@ -19,7 +19,8 @@ import {
   BewellLogo,
   ApppiLogo,
   SGCULogo,
-  ESCLogo
+  ESCLogo,
+  SpacelyLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -60,23 +61,36 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Spacely AI",
+      link: "https://www.spacely.ai",
+      badges: ["Part-time"],
+      title: "Software Engineer",
+      logo: SpacelyLogo,
+      start: "Oct 2024",
+      end: "Present",
+      description: [
+      ],
+      technologies: ["Next.js", "Nest.js", "Go", "LLM"]
+    },
+    {
       company: "Apppi",
       link: "https://apppi.co",
-      badges: ["Intern"],
+      badges: ["Internship"],
       title: "Software Engineer Intern",
       logo: ApppiLogo,
       start: "August 2024",
       end: "Present",
       description: [
         "Designed and developed middleware for user authorization, integrating Microsoft Azure AD token verification and implementing Role - Based Access Control(RBAC) to manage permissions within the Content Management System(CMS).",
-        "Optimized and enhanced UI code to improve rendering efficiency, focusing on performance by minimizing redundant API calls and preventing unnecessary data reloading.",
+        "Developed the frontend for a CMS platform, implementing global state management to streamline state handling and optimize performance.",
+        "Integrated Axios with Tanstack Query to manage API calls, enabling error handling, data caching, and reducing redundant requests.",
       ],
       technologies: ["Next.js", "AntD", "Go", "Gin", "PostgreSQL", "Docker", "Microsoft Azure", "Auth0"]
     },
     {
       company: "Bewell",
       link: "https://www.bewellstyle.com/",
-      badges: ["Intern"],
+      badges: ["Internship"],
       title: "Software Engineer Intern",
       logo: BewellLogo,
       start: "May 2024",
@@ -95,13 +109,16 @@ export const RESUME_DATA = {
       company: "Student Gorvernment of Chulalongkorn University",
       link: "https://www.chula.ac.th/academics/academic-units/sgcu",
       badges: [],
-      title: "Senior Software Engineer",
+      title: "Software Engineer → Tech Lead and Project Manager",
       logo: SGCULogo,
       start: "June 2024",
       end: "Present",
       description: [
         "Led the backend team for the official website project of the Student Union at Chulalongkorn University (SUCU). My primary responsibilities included task allocation to engineers, leading the Scrum process, and providing supports to team members.",
+        "Managed the overall website development timeline to ensure it stays within the specified scope. Additionally, oversees the work of engineers within the team using a Kanban board, while gathering client feedback to implement improvements through feedback loops, aiming to meet requirements as closely as possible.",
         "Architected the system using Golang as the backend server. The architecture was implemented following the principles of clean architecture, with careful consideration of domain-driven design (DDD)",
+        "Developed a microservice for the Rub Puen Kao Mai 2024 using Golang and gRPC as the backend server, supporting over 5,000 users.",
+        "Integrated caching with the backend system of Rub Puen Kao Mai 2024 to reduce database load during high traffic."
       ],
       technologies: ["Go", "Fiber", "Gin", "PostgreSQL", "Kubernetes", "Microservices", "gRPC", "GCP", "AWS"]
     },
