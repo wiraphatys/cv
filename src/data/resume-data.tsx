@@ -64,13 +64,24 @@ export const RESUME_DATA = {
       company: "Spacely AI",
       link: "https://www.spacely.ai",
       badges: ["Part-time"],
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       logo: SpacelyLogo,
       start: "Oct 2024",
       end: "Present",
       description: [
+        "Led the full-stack development of AI-powered tools, overseeing the entire software development lifecycle from initial concept to final deployment, ensuring timely delivery and system scalability.",
+        "Developed a specialized API service that enabled AI-driven style transfer, converting static interior design images into AI-enhanced visuals with new design elements, improving user experience and creativity.",
+        "Designed and optimized user interfaces for seamless interaction with AI tools, allowing users to visualize real-time interior design changes such as changing image to video, customizing room perspective and room styling, driving engagement and enhancing usability.",
       ],
-      technologies: ["Next.js", "Nest.js", "Go", "LLM"]
+      technologies: [
+        "Next.js",
+        "Nest.js",
+        "Go",
+        "Echo",
+        "Docker",
+        "LLM",
+        "Firebase",
+      ],
     },
     {
       company: "Apppi",
@@ -82,10 +93,19 @@ export const RESUME_DATA = {
       end: "Present",
       description: [
         "Designed and developed middleware for user authorization, integrating Microsoft Azure AD token verification and implementing Role - Based Access Control(RBAC) to manage permissions within the Content Management System(CMS).",
-        "Developed the frontend for a CMS platform, implementing global state management to streamline state handling and optimize performance.",
-        "Integrated Axios with Tanstack Query to manage API calls, enabling error handling, data caching, and reducing redundant requests.",
+        "Led the frontend development of the CMS platform, utilizing global state management to enhance performance, reducing unnecessary re-renders and improving user experience.",
+        "Integrated Axios with Tanstack Query to efficiently manage API calls, implementing error handling, data caching, and reducing redundant requests, resulting in faster load times and improved data reliability.",
       ],
-      technologies: ["Next.js", "AntD", "Go", "Gin", "PostgreSQL", "Docker", "Microsoft Azure", "Auth0"]
+      technologies: [
+        "React.js",
+        "AntD",
+        "Go",
+        "Gin",
+        "PostgreSQL",
+        "Docker",
+        "Microsoft Azure",
+        "Auth0",
+      ],
     },
     {
       company: "Bewell",
@@ -101,7 +121,7 @@ export const RESUME_DATA = {
         "Designed the customer service system with a strong focus on architecture, using design patterns like Singleton and Factory, implementing clean architecture, and adhering to SOLID principles and DDD.",
         "Developed the delivery sales system for Bewell, utilizing Golang as the backend to ensure efficient and reliable operations.",
       ],
-      technologies: ["Go","Fiber", "MS SQL", "Docker", "Gitlab CI", "NginX"]
+      technologies: ["Go", "Fiber", "MS SQL", "Docker", "Gitlab CI", "NginX"],
     },
   ],
   extraCurricular: [
@@ -118,9 +138,19 @@ export const RESUME_DATA = {
         "Managed the overall website development timeline to ensure it stays within the specified scope. Additionally, oversees the work of engineers within the team using a Kanban board, while gathering client feedback to implement improvements through feedback loops, aiming to meet requirements as closely as possible.",
         "Architected the system using Golang as the backend server. The architecture was implemented following the principles of clean architecture, with careful consideration of domain-driven design (DDD)",
         "Developed a microservice for the Rub Puen Kao Mai 2024 using Golang and gRPC as the backend server, supporting over 5,000 users.",
-        "Integrated caching with the backend system of Rub Puen Kao Mai 2024 to reduce database load during high traffic."
+        "Integrated caching with the backend system of Rub Puen Kao Mai 2024 to reduce database load during high traffic.",
       ],
-      technologies: ["Go", "Fiber", "Gin", "PostgreSQL", "Kubernetes", "Microservices", "gRPC", "GCP", "AWS"]
+      technologies: [
+        "Go",
+        "Fiber",
+        "Gin",
+        "PostgreSQL",
+        "Kubernetes",
+        "Microservices",
+        "gRPC",
+        "GCP",
+        "AWS",
+      ],
     },
     {
       company: "Engineering Student Committee, Chulalongkorn University",
@@ -133,13 +163,22 @@ export const RESUME_DATA = {
       description: [
         "Implemented the backend system using Golang as the server and employed gRPC as the API architecture to facilitate communication between servers, effectively reducing the latency of API calls to support over 1,000 users.",
         "Authored proto files according to the API requirements to integrate and establish the gRPC server, allowing clients to access and interact with the services efficiently.",
-        "Designed the code architecture by implementing hexagonal architecture principles, structured the codebase in a domain-based manner, and utilized Golang as the backend server to ensure a modular and maintainable system."
+        "Designed the code architecture by implementing hexagonal architecture principles, structured the codebase in a domain-based manner, and utilized Golang as the backend server to ensure a modular and maintainable system.",
       ],
-      technologies: ["Go", "Fiber", "Gin", "PostgreSQL", "Docker", "gRPC", "Hexagonal", "OIDC"]
+      technologies: [
+        "Go",
+        "Fiber",
+        "Gin",
+        "PostgreSQL",
+        "Docker",
+        "gRPC",
+        "Hexagonal",
+        "OIDC",
+      ],
     },
   ],
   skills: [
-    "Golang",
+    "Go",
     "JavaScript",
     "TypeScript",
     "Java",
@@ -174,7 +213,7 @@ export const RESUME_DATA = {
         "Gin",
         "Docker",
         "Microsoft Azure",
-        "Auth0"
+        "Auth0",
       ],
       description:
         "The CMS product integrates with Tableau to analyze company data, enabling dashboard creation, with phase 2 focusing on managing access rights for employees and customers.",
@@ -188,7 +227,7 @@ export const RESUME_DATA = {
         "Fiber",
         "MS SQL",
         "Docker",
-        "Gitlab CI"
+        "Gitlab CI",
       ],
       description:
         "The customer service system focuses on post-sales product support, including receiving problem reports, fixing issues, and returning the products.",
@@ -204,7 +243,8 @@ export const RESUME_DATA = {
         "Microservices",
         "gRPC",
       ],
-      description: "The Rub Puen Kao Mai 2024 web application is used for activities over 2 days during the freshman orientation for first-year students.",
+      description:
+        "The Rub Puen Kao Mai 2024 web application is used for activities over 2 days during the freshman orientation for first-year students.",
       logo: ConsultlyLogo,
       link: {
         label: "github.com/wiraphatys/rpkm67-backend",
