@@ -20,7 +20,8 @@ import {
   ApppiLogo,
   SGCULogo,
   ESCLogo,
-  SpacelyLogo
+  SpacelyLogo,
+  LoolooLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -60,6 +61,21 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Looloo Technology",
+      link: "https://loolootech.com",
+      badges: ["Internship"],
+      title: "Software Engineer Intern",
+      logo: LoolooLogo,
+      start: "Nov 2024",
+      end: "Present",
+      description: [],
+      technologies: [
+        "Python",
+        "Django",
+        "LLM"
+      ],
+    },
     {
       company: "Spacely AI",
       link: "https://www.spacely.ai",

@@ -20,6 +20,7 @@ import ApppiLogo from "./ApppiLogo.png"
 import SGCULogo from "./SGCULogo.jpeg"
 import ESCLogo from "./ESCLogo.png"
 import SpacelyLogo from "./SpacelyLogo.svg"
+import LoolooLogo from "./looloo-logo.svg"
 
 export {
   ConsultlyLogo,
@@ -43,5 +44,6 @@ export {
   ApppiLogo,
   SGCULogo,
   ESCLogo,
-  SpacelyLogo
+  SpacelyLogo,
+  LoolooLogo
 };
