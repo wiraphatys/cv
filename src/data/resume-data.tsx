@@ -70,11 +70,7 @@ export const RESUME_DATA = {
       start: "Nov 2024",
       end: "Present",
       description: [],
-      technologies: [
-        "Python",
-        "Django",
-        "LLM"
-      ],
+      technologies: ["Python", "Django", "LLM"],
     },
     {
       company: "Spacely AI",
@@ -215,10 +211,33 @@ export const RESUME_DATA = {
     "React/Next.js",
     "Tailwind",
     "AntD",
+    "Chakra UI",
     "gRPC",
     "REST",
   ],
   projects: [
+    {
+      title: "Spacely AI",
+      techStack: [
+        "Full Stack Software Engineer",
+        "React.js",
+        "Next.js",
+        "Chakra UI",
+        "Go",
+        "Gin",
+        "Nest.js",
+        "LLM",
+        "GenAI",
+        "Firebase",
+      ],
+      description:
+        "An AI-driven platform that streamlines interior design by generating photorealistic renders and optimizing workflows.",
+      logo: ParabolLogo,
+      link: {
+        label: "www.spacely.ai",
+        href: "https://www.spacely.ai/",
+      },
+    },
     {
       title: "Sightify CJ",
       techStack: [
