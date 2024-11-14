@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       badges: ["Internship"],
       title: "Software Engineer Intern",
       logo: LoolooLogo,
-      start: "Nov 2024",
+      start: "November 2024",
       end: "Present",
       description: [],
       technologies: ["Python", "Django", "LLM"],
@@ -102,7 +102,7 @@ export const RESUME_DATA = {
       title: "Software Engineer Intern",
       logo: ApppiLogo,
       start: "August 2024",
-      end: "Present",
+      end: "October 2024",
       description: [
         "Designed and developed middleware for user authorization, integrating Microsoft Azure AD token verification and implementing Role - Based Access Control(RBAC) to manage permissions within the Content Management System(CMS).",
         "Led the frontend development of the CMS platform, utilizing global state management to enhance performance, reducing unnecessary re-renders and improving user experience.",
