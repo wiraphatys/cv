@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       start: "November 2024",
       end: "Present",
       description: [],
-      technologies: ["Python", "Django", "LLM"],
+      technologies: ["Python", "FastAPI", "LLM"],
     },
     {
       company: "Spacely AI",
@@ -78,7 +78,7 @@ export const RESUME_DATA = {
       badges: ["Part-time"],
       title: "Software Engineer Intern",
       logo: SpacelyLogo,
-      start: "Oct 2024",
+      start: "October 2024",
       end: "Present",
       description: [
         "Led the full-stack development of AI-powered tools, overseeing the entire software development lifecycle from initial concept to final deployment, ensuring timely delivery and system scalability.",
