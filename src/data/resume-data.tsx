@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       title: "Software Engineer Intern",
       logo: SpacelyLogo,
       start: "October 2024",
-      end: "Nov 2025",
+      end: "November 2024",
       description: [
         "Led the full-stack development of AI-powered tools, overseeing the entire software development lifecycle from initial concept to final deployment, ensuring timely delivery and system scalability.",
         "Developed a specialized API service that enabled AI-driven style transfer, converting static interior design images into AI-enhanced visuals with new design elements, improving user experience and creativity.",
