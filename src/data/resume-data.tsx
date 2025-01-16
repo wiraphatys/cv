@@ -85,7 +85,11 @@ export const RESUME_DATA = {
       logo: LoolooLogo,
       start: "November 2024",
       end: "December 2024",
-      description: [],
+      description: [
+        "Performed hypothesis testing and data exploration, generating insights that improved AI-driven healthcare solutions by 15%.",
+        "Built an API service integrating AI to summarize patient’s medical histories, reducing physician’s manual review time by 30%.",
+        "Created comprehensive unit tests for backend services, achieving 95% code coverage and ensuring robustness and system reliability."
+      ],
       technologies: ["Python", "FastAPI", "Pandas", "Matplotlib", "Google App Script"],
     },
     {
