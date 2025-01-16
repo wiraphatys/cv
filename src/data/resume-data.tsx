@@ -21,7 +21,8 @@ import {
   SGCULogo,
   ESCLogo,
   SpacelyLogo,
-  LoolooLogo
+  LoolooLogo,
+  AgodaLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -62,13 +63,28 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Agoda",
+      link: "https://www.agoda.com",
+      badges: ["Internship"],
+      title: "Software Engineer Intern",
+      logo: AgodaLogo,
+      start: "January 2025",
+      end: "Present",
+      description: [
+        "Collaborated with the Flight Platform team to enhance Agoda's search system for flight booking, ensuring customers receive the most optimal results at the best prices.",
+        "Developed and improved internal tools used for experimentation and system optimization, supporting faster and more accurate system development cycles.",
+        "Debugged and maintained legacy code, extending its lifespan and ensuring system stability for future enhancements."
+      ],
+      technologies: ["React.js", "Scala", "Scylla", "Kafka", "Docker", "Gitlab"],
+    },
+    {
       company: "Looloo Technology",
       link: "https://loolootech.com",
       badges: ["Internship"],
       title: "Software Engineer Intern",
       logo: LoolooLogo,
       start: "November 2024",
-      end: "Present",
+      end: "December 2024",
       description: [],
       technologies: ["Python", "FastAPI", "Pandas", "Matplotlib", "Google App Script"],
     },

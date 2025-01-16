@@ -21,6 +21,7 @@ import SGCULogo from "./SGCULogo.jpeg"
 import ESCLogo from "./ESCLogo.png"
 import SpacelyLogo from "./SpacelyLogo.svg"
 import LoolooLogo from "./looloo-logo.svg"
+import AgodaLogo from "./AgodaLogo.png"
 
 export {
   ConsultlyLogo,
@@ -45,5 +46,6 @@ export {
   SGCULogo,
   ESCLogo,
   SpacelyLogo,
-  LoolooLogo
+  LoolooLogo,
+  AgodaLogo
 };
