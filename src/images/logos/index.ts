@@ -22,6 +22,9 @@ import ESCLogo from "./ESCLogo.png"
 import SpacelyLogo from "./SpacelyLogo.svg"
 import LoolooLogo from "./looloo-logo.svg"
 import AgodaLogo from "./AgodaLogo.png"
+import LMWNLogo from "./LMWNLogo.png"
+import LINELogo from "./LINELogo.png"
+import IBMLogo from "./IBMLogo.png"
 
 export {
   ConsultlyLogo,
@@ -47,5 +50,8 @@ export {
   ESCLogo,
   SpacelyLogo,
   LoolooLogo,
-  AgodaLogo
+  AgodaLogo,
+  LMWNLogo,
+  LINELogo,
+  IBMLogo
 };
