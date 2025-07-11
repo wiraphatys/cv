@@ -110,7 +110,7 @@ export const RESUME_DATA = {
       logo: LMWNLogo,
       start: "Aug 2025",
       end: "Present",
-      description: ["Sleep while working hour"],
+      description: ["Creating bug and future technical dept."],
       technologies: [
         "Go",
         "Redis",
