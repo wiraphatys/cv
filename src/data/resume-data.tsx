@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
   BewellLogo,
   ApppiLogo,
+  ApppiLogoV2,
   SGCULogo,
   ESCLogo,
   SpacelyLogo,
@@ -26,6 +27,7 @@ import {
   LMWNLogo,
   IBMLogo,
   LINELogo,
+  LoolooLogoV2,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -92,7 +94,7 @@ export const RESUME_DATA = {
       link: "https://apppi.co",
       badges: ["Full-Time", "Remote"],
       title: "Software Engineer",
-      logo: ApppiLogo,
+      logo: ApppiLogoV2,
       start: "Dec 2024",
       end: "Present",
       description: [
@@ -152,8 +154,7 @@ export const RESUME_DATA = {
       start: "Nov 2024",
       end: "Dec 2024",
       description: [
-        "Performed hypothesis testing and data exploration, generating insights that improved AI-driven healthcare solutions by 15%.",
-        "Built an API service integrating AI to summarize patient’s medical histories, reducing physician’s manual review time by 30%.",
+        "Built an API service integrating AI to summarize patient's medical histories, reducing physician's manual review time by 30%.",
         "Created comprehensive unit tests for backend services, achieving 95% code coverage and ensuring robustness and system reliability.",
       ],
       technologies: [
@@ -192,7 +193,7 @@ export const RESUME_DATA = {
       link: "https://apppi.co",
       badges: ["Internship"],
       title: "Full Stack Developer",
-      logo: ApppiLogo,
+      logo: ApppiLogoV2,
       start: "Aug 2024",
       end: "Oct 2024",
       description: [

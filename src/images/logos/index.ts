@@ -17,10 +17,12 @@ import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
 import BewellLogo from "./BewellLogo.png"
 import ApppiLogo from "./ApppiLogo.png"
+import ApppiLogoV2 from "./ApppiLogo2.png"
 import SGCULogo from "./SGCULogo.jpeg"
 import ESCLogo from "./ESCLogo.png"
 import SpacelyLogo from "./SpacelyLogo.svg"
 import LoolooLogo from "./looloo-logo.svg"
+import LoolooLogoV2 from "./LoolooLogoV2.jpeg"
 import AgodaLogo from "./AgodaLogo.png"
 import LMWNLogo from "./LMWNLogo.png"
 import LINELogo from "./LINELogo.png"
@@ -46,10 +48,12 @@ export {
   Minimal,
   BewellLogo,
   ApppiLogo,
+  ApppiLogoV2,
   SGCULogo,
   ESCLogo,
   SpacelyLogo,
   LoolooLogo,
+  LoolooLogoV2,
   AgodaLogo,
   LMWNLogo,
   LINELogo,
