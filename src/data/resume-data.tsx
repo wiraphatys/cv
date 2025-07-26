@@ -106,7 +106,7 @@ export const RESUME_DATA = {
       company: "LINE MAN Wongnai",
       link: "https://lmwn.com",
       badges: ["Contract"],
-      title: "Software Engineer (SRE)",
+      title: "Software Engineer, SRE",
       logo: LMWNLogo,
       start: "Aug 2025",
       end: "Present",
