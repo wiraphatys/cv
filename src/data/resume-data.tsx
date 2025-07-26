@@ -37,7 +37,7 @@ export const RESUME_DATA = {
   about:
     "Detail-oriented Software Engineer dedicated to building high-quality software.",
   summary:
-    "As a dedicated Software Engineer, I excel in developing robust backend systems and leading development teams through the implementation of efficient, scalable solutions. My experience spans working with Golang, gRPC, and microservices architecture, particularly in high-performance environments. I have contributed to various projects, including authorization systems, customer service platforms, and university-level web development. With a strong foundation in clean architecture, DDD, and design patterns, I aim to create reliable and maintainable software systems.",
+    "Software Engineer with 1+ year of experience specializing in system design and backend development for large-scale applications using Golang and Scala on microservices architecture. Highly adept at modernizing complex legacy codebases and engineering resilient, high-performance services for large-scale production use.",
   avatarUrl: "https://i.ibb.co/5BYygkp/banky-google-scl2024.jpg",
   personalWebsiteUrl: "https://wiraphat.vercel.app",
   contact: {
