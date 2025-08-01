@@ -67,26 +67,15 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-    // {
-    //   company: "IBM",
-    //   link: "https://www.ibm.com",
-    //   badges: ["Internship"],
-    //   title: "AI Engineer",
-    //   logo: IBMLogo,
-    //   start: "Sep 2025",
-    //   end: "Present",
-    //   description: [],
-    //   technologies: [],
-    // },
     {
       company: "LINE MAN Wongnai",
       link: "https://lmwn.com",
       badges: ["Contract"],
-      title: "Software Engineer",
+      title: "Software Engineer (SRE)",
       logo: LMWNLogo,
       start: "Aug 2025",
       end: "Present",
-      description: ["Creating bug and future technical dept."],
+      description: ["Creating bug and future technical debt."],
       technologies: [],
     },
     {
